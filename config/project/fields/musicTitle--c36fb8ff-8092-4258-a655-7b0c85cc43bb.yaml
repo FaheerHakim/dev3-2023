@@ -1,0 +1,19 @@
+columnSuffix: pxfrtkkd
+contentColumnType: text
+fieldGroup: 7b6648c7-90e0-4584-8355-6d700887c402 # Home Page
+handle: musicTitle
+instructions: null
+name: 'Music Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

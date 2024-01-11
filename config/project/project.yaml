@@ -1,14 +1,26 @@
-dateModified: 1704977083
+dateModified: 1704983780
 email:
   fromEmail: faheerhakim@gmail.com
   fromName: craftcmsproject
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  uploads:
+    hasUrls: true
+    name: Uploads
+    settings:
+      path: $ASSET_BASE_PATH
+    type: craft\fs\Local
+    url: $ASSET_BASE_URL
 meta:
   __names__:
     6e8d1fd7-6204-4219-b2be-bdfe8552b23d: craftcmsproject # craftcmsproject
+    7b6648c7-90e0-4584-8355-6d700887c402: 'Home Page' # Home Page
+    011b1cf5-e67e-4be0-9e35-853d8dfa019f: 'Music Image' # Music Image
     544f619e-46fe-4e86-a55f-e6ed34636e9e: Home # Home
     c3d5b0dc-3b96-4e75-a2fe-a1f7f6a242b5: craftcmsproject # craftcmsproject
+    c36fb8ff-8092-4258-a655-7b0c85cc43bb: 'Music Title' # Music Title
     ca3725a7-bcbd-41c9-b54b-c81c9698eb66: Home # Home
+    dba70d9e-1cbb-4490-befa-a4736b343868: Uploads # Uploads
     ddf27ce4-eed9-4895-aa74-64ce77dadb40: Common # Common
 system:
   edition: solo
