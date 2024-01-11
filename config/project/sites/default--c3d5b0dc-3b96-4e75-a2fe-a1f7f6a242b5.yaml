@@ -1,8 +1,0 @@
-baseUrl: $PRIMARY_SITE_URL
-handle: default
-hasUrls: true
-language: en-US
-name: craftcmsproject
-primary: true
-siteGroup: 6e8d1fd7-6204-4219-b2be-bdfe8552b23d # craftcmsproject
-sortOrder: 1
