@@ -2,7 +2,9 @@
 
 {% block content %}
 
-<section class="music-bg" style="background-image: url('{{ siteUrl }}static/images/photos/m1.jpeg')">
+{% set image = entry.musicImage.one() %}
+
+<section class="music-bg" style="background-image: url('{{ image.url }}')">
 <div class="music__content content-column">
 
 <h1>{{ entry.musicTitle }}</h1>
