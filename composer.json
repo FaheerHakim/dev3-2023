@@ -1,0 +1,11 @@
+{
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true,
+            "craftcms/plugin-installer": true
+        }
+    },
+    "require": {
+        "craftcms/redactor": "^3.0"
+    }
+}
